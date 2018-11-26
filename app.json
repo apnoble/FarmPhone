@@ -9,7 +9,6 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/img/pigIcon.png",
-    
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -17,7 +16,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.farm.farm-phone"
     }
   }
 }
